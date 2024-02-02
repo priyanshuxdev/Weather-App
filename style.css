@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main {
+  background-color: lightblue;
+  height: 23rem;
+  width: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding-top: 0.7rem;
+  text-shadow: 2px 2px #fff;
+  background-color: rgb(179, 121, 121);
+  color: transparent;
+  background-clip: text;
+  
+}
+
+.loc__input {
+    padding: 0.2rem 1.4rem;
+    text-align: center;
+    border: none;
+    font-weight: 400;
+    border: 1.5px solid rgb(201, 144, 144);
+    border-radius: .8rem;
+}
+
+.loc__input:focus {
+    outline: none;
+}
+
+.btn {
+    padding: .365rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: rgb(201, 144, 144);
+    color: #fff;
+    margin-bottom: 1.8rem;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.weather__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.location {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.temperature {
+    font-size: 1.4rem;
+
+}
+
+.description {
+    font-size: 1.2rem;
+}
